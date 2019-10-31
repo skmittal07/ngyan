@@ -5,7 +5,7 @@ var app = express();
 var body = require("body-parser");
 const mongoose = require("mongoose");
 const conn=require('../routes/Connection.js');
-mongoose.connect('conn');
+
 //mongoose.connect('mongodb://localhost:27017/ngyan');
 var user = require("../Model/model.users");
 const modelusers = mongoose.model("model.users");
